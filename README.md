@@ -120,4 +120,4 @@ The recursive trigonemtric layout function will dynamically arrange this tree as
 ![screenshot](screenshot.png)
 
 [demo-shield]: https://img.shields.io/badge/Try%20It%20Out!-0a66c2?style=for-the-badge
-[demo-url]: https://www.google.com
+[demo-url]: https://tedalden.github.io/skill-tree-demo/
