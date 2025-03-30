@@ -81,7 +81,7 @@ const tree = new SkillTree({
 });
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(window.innerWidth, window.innerHeight);
   tree.arrangeNodes(width, height);
 }
 
