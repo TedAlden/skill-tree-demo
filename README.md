@@ -1,22 +1,22 @@
 # Efficient and Scalable Videogame Skill-trees
 
-> A sophisticated skill-tree system, written in JavaScript (p5.js graphics) and designed with scalability and rapid development in mind.
+A sophisticated skill-tree system, written in JavaScript (p5.js graphics) and designed with scalability and rapid development in mind. No need to tediously calculate each node's `(x,y)` coordinate, or create a spaghetti of if-statements for purchase logic. Just define a skill-tree as a basic JSON hierarchy (see example) and all is handled for you.
 
-No more tedious number crunching and placing nodes by each `(x,y)` coordinate, or coding a spaghetti of if-statements. Just define a skill-tree as a basic JSON hierarchy (see example) and all is handled for you.
+Made as a quick weekend project to help a out friend with game dev.
 
 [![Demo][demo-shield]][demo-url]
 
 ## Features
 
-- Hybrid data structure. Skill-tree can be defined using a simple JSON heirarchy, then converted into a tree data structure behind the scenes for algorithmic purposes.
+1. **Hybrid data structure**. Skill-tree can be defined using a simple JSON heirarchy, then converted into a tree data structure behind the scenes for algorithmic purposes.
 
-- Weighted pathfinding. Uses Djikstra's recursive pathfinding algorithm to find the cheapest path to unlock a chosen skill.
+2. **Weighted pathfinding**. Uses Djikstra's recursive pathfinding algorithm to find the cheapest path to unlock a chosen skill.
 
-- Dynamic layout. Recursive functionality using some maths/trigonometry to dynamically arrange a tree data structure into a circular spanning pattern as you see in the demo.
+3. **Dynamic layout**. Recursive functionality using some maths/trigonometry to dynamically arrange a tree data structure into a circular spanning pattern as you see in the demo.
 
-- Rapid development. Easily create or change your game's entire skill system in a matter of seconds. Simply change the markup, no need to change any code.
+4. **Rapid development**. Easily create or change your game's entire skill system in a matter of seconds. Simply change the markup, no need to change any code.
 
-- Simple architecture and polymorphism. The SkillNode class can easily be inherited to create new skills with different behaviour if your game needs so.
+5. **Expandable architecture**. The SkillNode class can easily be inherited to create new skills with different behaviour if your game needs so.
 
 ## Code
 
